@@ -8,7 +8,7 @@ gem 'sqlite3', group: [:development, :test]
 #Use postgresql as the database for prooduction
 group :prooduction do 
     gem 'pg'
-    gem 'rails_12factor'
+    gem 'rails_12factori'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
