@@ -43,6 +43,7 @@ gem 'devise', '3.4.1'
 # Use stripe to handle payment
 gem 'stripe', '1.16.1'
 
+# Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
 
