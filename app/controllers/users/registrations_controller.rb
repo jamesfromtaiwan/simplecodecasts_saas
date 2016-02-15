@@ -9,7 +9,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
          # import the code from RegistrationController
          if params[:plan] 
             resource.plan_id = params[:plan]
-            if resource.plan_id == 2
+            if resource.plan_id == 2 # User.plan_id = 2 if the user been created is from pro account
                 resource.save_with_payment
             else
                 resource.save
