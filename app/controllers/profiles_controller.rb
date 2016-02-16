@@ -19,7 +19,8 @@ class ProfilesController < ApplicationController
           render action: :new
        end
    end
-    
+   
+
     
     private 
     
