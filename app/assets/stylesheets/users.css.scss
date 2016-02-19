@@ -1,0 +1,45 @@
+$info-color: #5bc0de;
+$success-color: #5cb85c;
+
+.img-ajust {
+    width: 80%;
+    heigh: auto;
+    max-width: 400px;
+    min-width: 200px;
+    display:block;
+    margin: 20px auto auto 0;
+
+}
+
+.job-title-icon {
+    
+    display:inline-block;
+    background-color: $info-color;
+    border: 1px solid #46b8da;
+    color: white;
+    text-align: center;
+    border-radius: 15%;
+    margin-right: 15px;
+
+}
+
+.well.profile-block {
+    
+    h3 {
+        margin-top: 0;
+    }
+    color: white;
+    
+}
+
+
+.well.profile-description {
+    background-color: $info-color;
+    border-color: #46b8da;
+    
+}
+
+.well.profile-contact {
+    background-color: $success-color;
+    border-color: #4cae4c;
+}
