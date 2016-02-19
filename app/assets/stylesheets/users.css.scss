@@ -1,11 +1,10 @@
 $info-color: #5bc0de;
 $success-color: #5cb85c;
 
-.img-ajust {
-    width: 80%;
-    heigh: auto;
-    max-width: 400px;
-    min-width: 200px;
+/* Users Show Page Styles */
+
+.user-show-avatar {
+
     display:block;
     margin: 20px auto auto 0;
 
@@ -42,4 +41,20 @@ $success-color: #5cb85c;
 .well.profile-contact {
     background-color: $success-color;
     border-color: #4cae4c;
+}
+
+/* Users Index Page Styles */
+
+.user-index-avatar {
+    
+    width: 128px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.white-bg {
+    
+    background:white;
+    
 }
